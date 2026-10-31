@@ -1,17 +1,25 @@
+<div align="center">
+
 # CRUDS
 
 ### A simple, practical product management system
 
 Create, organize, search, and update product records from a clean browser-based dashboard.
-<br>  
+
+<br><br>
+
+<a href="https://ziad-v7med.github.io/Product-Management-System/">
+  <img src="https://img.shields.io/badge/🌐_View_Live_Project-690c69?style=for-the-badge" alt="View the live project">
+</a>
+
+<br><br>
 
 ![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
 ![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
 ![JavaScript](https://img.shields.io/badge/JavaScript-Application-F7DF1E?style=for-the-badge&logo=javascript&logoColor=222222)
-
 ![Storage](https://img.shields.io/badge/Storage-Browser%20LocalStorage-6A0D6A?style=for-the-badge)
+
+</div>
 
 ## Overview
 
