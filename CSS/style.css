@@ -1,0 +1,108 @@
+:root {
+    --main-color: #690c69
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: system-ui;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-style: none;
+    outline-style: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #111;
+}
+
+input:focus {
+    background-color: #000;
+    scale: 1.03;
+}
+
+.inputs .prices {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.prices input {
+    width: 20%;
+}
+
+#total {
+    background-color: #690000;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+#total::before {
+    content: 'Total : $';
+}
+
+button {
+    width: 100%;
+    color: white;
+    background-color: var(--main-color);
+    border-style: none;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #9a149a;
+    letter-spacing: 1px;
+}
+
+.search-by {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-by button {
+    width: 45%;
+}
+
+table {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+table thead th {
+    text-transform: capitalize;
+}
+
+th, td {
+    padding: 5px;
+}
+
+table button:hover {
+    letter-spacing: 0;
+}
